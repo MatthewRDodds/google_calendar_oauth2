@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'google_calendar_oauth2'
-  s.version     = '0.4.0'
+  s.version     = '0.4.1'
   s.summary     = "Work with Google Calendar using GData 3.0 + OAuth 2.0"
   s.description = "Work with Google Calendar using GData 3.0 + OAuth 2.0"
   s.authors     = ['Parker Young']
@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = '>= 1.3.6'
   s.files        = s.files = `git ls-files`.split("\n")
   s.require_path = 'lib'
-  s.add_dependency 'google-api-client', '~> 0.7.1'
+  s.add_dependency 'google-api-client', '0.20'
 end
